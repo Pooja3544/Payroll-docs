@@ -1,0 +1,88 @@
+
+
+
+.leave-requests-container {
+    width: 370px;
+    margin-left: -110%;
+    margin-top: -16px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(7, 10, 92);;
+    max-height: 440px; 
+    overflow-y: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    color: white;
+}
+
+.leave-requests-container::-webkit-scrollbar {
+    display: none; 
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.leave-requests-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leave-request-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
+}
+
+.leave-request-item h3 {
+    margin: 0 0 10px;
+}
+
+.leave-request-item p {
+    margin: 5px 10px;
+}
+
+.leave-request-item:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    /* Optional: change background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow effect on hover */
+}
+.button-group1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accept-button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.accept-button:hover {
+    background-color: #218838;
+}
+
+.reject-button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.reject-button:hover {
+    background-color: #c82333;
+}

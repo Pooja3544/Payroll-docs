@@ -1,0 +1,181 @@
+.leave-application {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    background-color: #ffffff;
+    width: 500px; /* Adjust the width as needed */
+    margin-right: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: -10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .leave-form-container {
+    width: 40%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    height: 70%;
+    margin-right: 20px;
+    background-color: #fefbfb;
+  }
+  
+  .leave-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .leave-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .leave-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: left;
+    
+  }
+  
+  .leave-form input,
+  .leave-form select {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #ffffff66;
+  }
+  
+  .leave-form button {
+    padding: 10px;
+    border: none;
+    background-color: #1eb02a;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 15px;
+    width: 50%;
+  }
+  
+  .leave-info-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 500px; /* Set a maximum height to allow scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .remaining-leaves {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .leave-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .leave-entitlement,
+  .next-leave {
+    width: 40%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .leave-entitlement h3,
+  .next-leave h3 {
+    margin: 0;
+  }
+  
+  .leave-entitlement p,
+  .next-leave p {
+    margin: 5px 0;
+    font-size: 24px;
+  }
+  
+  .leave-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-info th,
+  .leave-info td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .leave-info th {
+    background-color: #ffffff;
+  }
+  
+  .leave-availability {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fffeff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-types {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .leave-type {
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-type h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .leave-days {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .leave-type span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .leave-form-container h2,
+  .remaining-leaves h2,
+  .leave-availability h2,
+  .leave-info h2 {
+    color: #333;
+  }
+  .view-more-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
